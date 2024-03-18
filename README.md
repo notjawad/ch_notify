@@ -11,7 +11,7 @@ Icons can be found here https://boxicons.com/
 ```lua
 exports['ch_notify']:sendNotification({
     title = 'Promotion',
-    description = 'You have been promoted to ' .. data.gradename .. '.',
+    message = 'You have been promoted to ' .. data.gradename .. '.',
     icon = 'bx bxs-upvote',
     duration = 5000,
     color = '#14b8a6'
